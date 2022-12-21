@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
-import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
+import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart, FiBox } from 'react-icons/fi';
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
@@ -470,20 +470,20 @@ export const employeesGrid = [
 
 export const links = [
   {
-    title: 'Dashboard',
+    title: 'Trang chu',
     links: [
       {
-        name: 'ecommerce',
+        name: 'dashboard',
         icon: <FiShoppingBag />,
       },
     ],
   },
 
   {
-    title: 'Pages',
+    title: 'Chuc nang',
     links: [
       {
-        name: 'orders',
+        name: 'Contract',
         icon: <AiOutlineShoppingCart />,
       },
       {
@@ -491,12 +491,12 @@ export const links = [
         icon: <IoMdContacts />,
       },
       {
-        name: 'customers',
-        icon: <RiContactsLine />,
+        name: 'Inventory',
+        icon: <FiBox />,
       },
     ],
   },
-  {
+/*   {
     title: 'Apps',
     links: [
       {
@@ -554,7 +554,7 @@ export const links = [
         icon: <AiOutlineBarChart />,
       },
     ],
-  },
+  }, */
 ];
 
 export const cartData = [

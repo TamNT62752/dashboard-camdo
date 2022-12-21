@@ -4,9 +4,10 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import './App.css';
 import { Sidebar } from './components';
+import { useStateContext } from './contexts/ContextProvider';
 
 function App() {
-  const activeMenu = true;
+  const {activeMenu} = useStateContext();
   return (
     <div>
       <BrowserRouter>
